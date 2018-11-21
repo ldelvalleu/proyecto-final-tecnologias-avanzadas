@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: 'Open Sans', serif !important;
+}
+.nav-casino{
+    background-color: transparent !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+.header-bg{
+    background-image: url(img/banner.jpeg);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-logo-header{
+    margin: 0 auto;
+    display: flex;
+}
+
+#rooms{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-reserve-room{
+    display: flex;
+    margin: 0 auto !important;
+}
+
+.btn-more-rooms{
+    display: flex;
+    margin: 0 auto !important;
+}
+
+#services{
+    height: 100vh;
+    background-color: #252525;
+}
+
+.card-row{
+    height: 50%;
+}
+
+#location{
+    height: 100vh;
+    background-color: #E0E0E0;
+}
+
+#map{
+    width: 100%;
+    height: 85%;
+}
+
+footer{
+    height: 30vh;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+}
+
+.p0i{
+    padding: 0 !important;
+}
+
+.col-cr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
