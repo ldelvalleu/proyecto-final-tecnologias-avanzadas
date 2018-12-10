@@ -29,7 +29,7 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-						<a class="navbar-brand" href="#"></a> <img src="<?php echo get_template_directory_uri()?>/img/mini-logo nave.png"  alt=""></a>
+						<a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri()?>/img/mini-logo nave.png"  alt=""></a>
 						<ul class="navbar-nav mt-2 mt-lg-0 ml-auto ">
 							<li class="nav-item">
 								<a class="nav-link color-white" href="#">Home <span class="sr-only">(current)</span></a>

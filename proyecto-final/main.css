@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
+body {
     font-family: 'Open Sans', serif !important;
 }
-.nav-casino{
+
+.nav-casino {
     background-color: transparent !important;
 }
 
-.color-white{
+.color-white {
     color: white !important;
 }
 
-.header-bg{
+.header-bg {
     background-image: url(img/banner.jpeg);
     height: 100vh;
     position: relative;
@@ -20,60 +21,233 @@ body{
     background-size: cover;
 }
 
-.img-logo-header{
+.img-logo-header {
     margin: 0 auto;
     display: flex;
 }
 
-#rooms{
+#rooms {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 100vh;
 }
 
-.btn-reserve-room{
+.btn-reserve-room {
     display: flex;
     margin: 0 auto !important;
 }
 
-.btn-more-rooms{
+.btn-more-rooms {
     display: flex;
     margin: 0 auto !important;
 }
 
-#services{
+#services {
     height: 100vh;
     background-color: #252525;
 }
 
-.card-row{
+.card-row {
     height: 50%;
 }
 
-#location{
+#location {
     height: 100vh;
     background-color: #E0E0E0;
 }
 
-#map{
+#map {
     width: 100%;
     height: 85%;
 }
 
-footer{
+footer {
     height: 30vh;
     background-color: #252525;
     display: flex;
     align-items: center;
 }
 
-.p0i{
+.p0i {
     padding: 0 !important;
 }
 
-.col-cr{
+.col-cr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-link:hover {
+    color: #FFBF00 !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrowLeft.png);
+
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrowRight.png);
+
+}
+
+.carousel-control-prev {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1%;
+}
+
+.carousel-control-next {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.carousel-row {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#services {
+    margin-top: 1% !important;
+}
+
+.container-services-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-services {
+    width: 100%;
+    height: 85%;
+}
+
+.services-row {
+    width: 100%;
+    height: 100%;
+}
+
+.container-big-card {
+    height: 100%;
+    width: 50%;
+    max-width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-small-cards {
+    height: 100%;
+    width: 50%;
+    max-width: 50%;
+    float: right;
+}
+
+.big-card {
+    height: 90%;
+    width: 60%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.image-container-big {
+    height: 40%;
+    margin: 0 auto;
+}
+
+.big-card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.small-card-one,
+.small-card-two,
+.small-card-three,
+.small-card-four {
+    height: 90%;
+    width: 45%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.small-card-one,
+.small-card-three {
+    float: left;
+}
+
+
+.small-card-two,
+.small-card-four {
+    margin-right: 2%;
+    float: right;
+}
+
+.small-card-image-container {
+    height: 50%;
+}
+
+.small-card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.small-cards-first-row,
+.small-cards-second-row {
+    height: 50%;
+}
+
+.small-card-button-container {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.text-container {
+    height: 50%;
+}
+
+.btn-seemore {
+    margin: 0 auto;
+}
+
+.h2-container {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+
+.parragraph-container {
+    height: 30%;
+}
+
+.h2-big-container {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-card-button-container {
+    display: flex;
+    align-items: center;
+    height: 40%;
+}
+
+.big-text-container {
+    height: 60%;
 }
